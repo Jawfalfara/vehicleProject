@@ -55,10 +55,10 @@ df = load_data()
 st.title("Gestion des Ventes et Locations de Véhicules Électriques")
 
 # Menu de navigation
-menu = st.sidebar.radio("Menu", ["Accueil", "Liste des véhicules", "Ajouter un véhicule", "Mise à jour"])
+menu = st.sidebar.radio("Menu", ["Accueil", "Liste des véhicules", "Ajouter un véhicule", "Véhicules de remplacement" , "Mise à jour"])
 
 if menu == "Accueil":
-    st.header("Bienvenue")
+    st.header("DALAL AK JAAM")
     st.write("""
     Cette plateforme permet de gérer efficacement les ventes et locations de véhicules électriques. 
     Utilisez le menu pour consulter la liste des véhicules, en ajouter ou mettre à jour leur état.
