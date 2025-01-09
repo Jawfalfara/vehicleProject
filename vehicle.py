@@ -25,9 +25,6 @@ df.drop_duplicates(inplace=True)
 
 
 from gettext import install
-
-imp
-
 import nltk
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
